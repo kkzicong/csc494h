@@ -365,6 +365,15 @@ section h3.section-subheading {
     background-color: #f1f1f1;
 }
 
+@media (max-width: 768px) {
+  img {
+    max-width:100%;
+    height: auto;
+  }
+}
+
+.image {}
+
 ::selection {
     text-shadow: none;
     background: #fed136;
