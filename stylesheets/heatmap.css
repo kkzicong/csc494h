@@ -387,6 +387,14 @@ img::-moz-selection {
     background: 0 0;
 }
 
+@media(min-width:768px) {
+    .update-text{
+        vertical-align: middle;
+        top: 50%;
+        position: relative;
+    }
+}
+
 body {
     webkit-tap-highlight-color: #fed136;
 }
